@@ -1,0 +1,38 @@
+nav ul {
+    list-style: none;
+    padding: auto;
+    display: flex;
+    gap: 20px;
+
+}
+
+.foto-presentacion{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+#inicio {
+    background-image: url("imagen/fondo1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center; 
+}
+
+.tarjeta {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
